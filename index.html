@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <div class="container">
+       
+    <form>
+        <h3>REGISTER</h3>
+        <div class="input-container"><input type="text" placeholder="Full Name" required id="name"> 
+            <i class='bxr  bx-user-square'  ></i> 
+         </div>
+        <div class="input-container">
+            <input type="email" placeholder="Email Id" required id="email">
+            <i class='bxr  bx-envelope'  ></i> 
+        </div>
+        <div class="input-container">
+            <input type="tel" placeholder="Phone Number" pattern="[0-9]{10}" required id="phoneno" >
+            <i class='bxr  bx-phone'  ></i> 
+        </div>
+        <div class="input-container">
+            <input type="Password" placeholder="Password" required id="password">
+            <i class='bxr  bx-lock'  ></i> 
+        </div>
+        <div class="input-container"><input type="Password" placeholder="Confirm Password" required id="Cpassword"></div>
+        <div class="input-container"><input type="submit" id="btn"></div>
+    </form>
+    </div>
+
+
+
+<script src="./form.js"></script>
+</body>
+</html>
